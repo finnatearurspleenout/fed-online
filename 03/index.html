@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="UA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeWork 3</title>
+</head>
+<body>
+    <table border="3" style="width: 30%;">
+        <thead>
+            <tr>
+                <th colspan="2">
+                    Автор/Назва книги
+                </th>
+                <th>
+                    Рейтинг
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="width: 40%;">
+                    Стівен Кінг
+                </td>
+                <td>
+                    Кладовище домашніх тварин
+                </td>
+                <td>
+                    4.8/5
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <br>
+    <!-- Таблиця покупок -->
+    <table border="3" style="width: 30%;">
+         <thead>
+            <tr>
+                <th>
+                    Категорія
+                </th>
+                <th>
+                    Список товарів
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    Продукти харчування
+                </td>
+                <td>
+                    <ul>
+                        <li>
+                            Фрукти
+                        </li>
+                        <li>
+                            Овочі
+                        </li>
+                        <li>
+                            Основні продукти:
+                            <ol>
+                                <li>Хліб</li>
+                                <li>Молоко</li>
+                                <li>Яйця</li>
+                            </ol>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Побутова хімія
+                </td>
+                <td>
+                    <ul>
+                        <li>Пральний порошок</li>
+                        <li>Мило</li>
+                        <li>Губки для миття</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Одяг
+                </td>
+                <td>
+                    <ul>
+                        <li>Футболка</li>
+                        <li>Шкарпетки</li>
+                        <li>Джинси</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <br>
+    <form action="">
+        <p>
+            <label for="userName">
+                Введіть ім'я
+            </label>
+            <input placeholder="Введіть ім'я" id="userName" type="text">
+        </p>
+        <p>
+            <label for="userPassword">
+                Введіть пароль
+            </label>
+            <input placeholder="Введіть пароль" id="userPassword" type="password">
+        </p>
+        <fieldset>
+            <legend> Приховані данні</legend>
+            <p>
+                <label for="userFile">
+                    Ваші документи
+                </label>
+                <br>
+                <input type="file" id="userFile" class="file-upload">
+            </p>
+            <br>
+            <p>
+                <label for="userImage">
+                    Ваша фотографія
+                </label>
+                <input type="image" id="userImage">
+            </p>
+        </fieldset>
+        <p>
+            <label for="Button">
+                Відправити данні
+            </label>
+            <input type="button" value="Підтверджую">
+        </p>
+        <input type="reset" value="Скинути форму">
+    </form>
+</body>
+</html>
