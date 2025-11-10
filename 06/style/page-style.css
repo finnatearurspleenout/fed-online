@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f5f5;
+}
+
+.container {
+    width: 360px;
+    margin: 100px auto;
+    border-radius: 20px;
+    background-color: #FFF; 
+    padding: 56px 20px 91px 20px;
+}
+
+h1 {
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+}
+
+button {
+    border: none;
+    background-color: #FFF;
+    width: 30px;
+    height: 30px;
+}
+
+.menu-items {
+    padding: 0 4px;
+    display: flex;
+    margin-top: 30px;
+    height: 101px;
+    width: 74px;
+}
+
+.position-img {
+   background-color: #efefef;
+   border-radius: 12px;
+   width: 74px;
+   height: 74px;
+}
+
+.ImagePosition {
+    padding: 14px;
+    margin-left: 6px;
+}
+
+.ImagePosition1 {
+    padding: 14px;
+    margin-left: 3px;
+    margin-top: 2px;
+}
+
+.ImagePosition2 {
+    padding: 14px;
+    margin-left: 4px;
+    margin-top: 5px;
+}
+
+.title {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #c4c4c4;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.menu-position {
+    border: none;
+    display: inline-block;
+    margin-right: 24px;
+}
+
+.menu-position:hover .position-img {
+    background-color: #eae287;
+}
+
+.menu-position:hover .title {
+    color: black;
+}
+
+input {
+    width: 316px;
+    height: 44px;
+    margin-top: 16px;
+    border-radius: 12px;
+    background-color: #efefef;
+    border: none;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.menu2 {
+    padding-left: 4px;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 26px;
+    margin-top: 32px;
+    color: #003049;
+}
+
+.burger {
+    width: 316px;
+    height: 88px;
+    background-color: #FFF;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px #e5e5e5;
+    padding: 4px 12px 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.burger1 {
+    width: 316px;
+    height: 88px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px #e5e5e5;
+    padding: 4px 5px 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+.burgerinfo {
+    padding: 0 12px;
+}
+
+.burgerinfo1 {
+    padding: 0 2px;
+}
+
+.burgername {
+    width: 400px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #003049;
+    margin: 0px;
+    padding-bottom: 8px;
+}
+
+.price  {
+    width: 500px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #D62828;
+    margin: 0;
+}
+
+.burger:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); 
+    border: none;
+}
