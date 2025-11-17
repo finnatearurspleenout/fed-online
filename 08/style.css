@@ -63,6 +63,7 @@ body {
 .ImagePosition2 {
     width: 358.44px;
     height: 203.74px;
+    position: absolute;
     top: 249.86px;
     left: 77.26px;
 }
