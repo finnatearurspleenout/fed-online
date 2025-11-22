@@ -135,6 +135,7 @@ nav a:hover::after {
     letter-spacing: 1px;
     color: #f2994a;
     margin-bottom: 10px;
+    font-family: 'Nunito Sans';
 }
 
 .text-block h1::after {
