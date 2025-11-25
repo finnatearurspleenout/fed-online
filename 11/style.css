@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center top;    
+}
+
+header .main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.header-date {
+    padding-left: 25px;
+    border-left: 3px solid white;
+    color: rgba(200, 200, 200, 1);
+    font-family: 'Kyiv*Type Titling';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    text-align: left;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.search-icon {
+    background: transparent;
+    border: none;
+}
+
+.profile-avatar {
+    width: 74px;
+    height: 74px;
+}
+
+.main-container {
+    max-width: 1610px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.content {
+    padding: 55px 40px 0;
+}
+
+.popular-section {
+    padding: 55px 40px 0;
+    position: relative;
+}
+
+.text-content {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.text-content1 {
+    color: rgba(255, 255, 255, 1);
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 100px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.text-content2 {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 29px;
+    letter-spacing: 3px;
+    text-align: left;
+    color: rgba(167, 166, 166, 1);
+    margin-top: 17px;
+}
+
+.text-content2 strong {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: white;
+}
+
+
+.text-content3 {
+    width: 864px;
+    height: 130px;
+    color: rgba(167, 166, 166, 1);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-top: 25px;
+}
+
+.popular {
+    width: 59%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular-tatle {
+    color: rgba(255, 255, 255, 1);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 144.52%;
+    letter-spacing: 6px;
+    text-align: left;
+}
+
+.stream-now {
+    border-radius: 10px;
+    width: 272px;
+    height: 64px;
+    background-color: rgba(213, 13, 31, 1);
+    border: none;
+}
+
+span {
+    color: rgba(255, 255, 255, 1);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 141.52%;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.img-stream {
+    margin: -8px auto;
+} 
+
+.buttons {
+    display: flex;
+    gap: 70px;
+}
+
+.prev, .next {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1.54px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigate {
+    display: flex;
+    gap: 20px;
+}
+
+.episodes {
+    border-radius: 10px;
+    width: 271px;
+    height: 64px;
+    border: 3px solid white;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+
+.card-container {
+    display: flex;
+    gap: 50px;
+    width: 59%;
+}
+
+.years {
+    background-color: rgba(212, 13, 31, 1);
+    width: 174px;
+    height: 66px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: absolute;
+    top: 250px;
+    right: -59px;
+}
+
+.gray-block {
+    background-color: gray;
+    width: 140px;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.years p {
+    color: rgba(255, 255, 255, 1);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 141.52%;
+    letter-spacing: 1px;
+    text-align: right;
+}
