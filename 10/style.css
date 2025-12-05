@@ -284,3 +284,35 @@ nav a:hover::after {
     font-weight: 400;
     font-family: 'Nunito Sans';
 }
+
+@media(max-width:1180px){
+    header .main-container {
+        flex-direction: column;
+    }
+    nav a {
+        margin: 40px 0;
+    }
+    .content .main-container {
+        flex-direction: column-reverse;
+    }
+    .text {
+        width: 100%;
+    }
+    .text-block {
+    padding-left: 40px;
+    }
+    .image-container {
+        width: 55%;
+        margin: 50px auto;
+    }
+    .social-media {
+        justify-content: space-around;
+    }
+}
+
+@media(max-width:680px){
+    .image-container {
+        width: 85%;
+        margin: 50px auto;
+    }
+}

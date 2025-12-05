@@ -1,0 +1,586 @@
+* {
+    box-sizing: border-box;
+}
+
+header .main-container {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 29px 105px;
+    position: relative;
+}
+
+/* .logo {
+    position: absolute;
+    left: 48%;
+} */
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.links {
+    justify-self: start;
+}
+
+.logo img {
+    width: 163px;
+    height: 60px;
+}
+
+.header-text {
+    display: flex;
+    gap: 46px;
+}
+
+.header-text a {
+    color: black;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.form-buttons {
+    display: flex;
+    gap: 46px;
+    flex-grow: 1;
+    justify-content: flex-end;
+    justify-self: end;
+}
+
+.form-buttons button {
+    border: none;
+    background-color: white;
+}
+
+.main-container {
+    margin: 0 auto;
+    max-width: 58.8%;
+    display: block;
+}
+
+.previev .main-container {
+    display: flex;
+    align-items: center;
+}
+
+.text-container {
+    padding: 150px 73px 144px 24px;
+}
+
+.text-container h1 {
+    color: rgba(0, 0, 0, 1);
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 60px;
+    letter-spacing: -5%;
+    text-align: left;
+    padding-bottom: 4px;
+}
+
+.text-container p {
+    color: rgba(0, 0, 0, 1);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+.button-buy button{
+    border: none;
+    background-color: black;
+    border-radius: 15px;
+    width: 195px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+.main-image {
+    position: relative;
+}
+
+.first-image .first {
+    padding-top: 30px;
+}
+
+.first-image .second {
+    position: absolute;
+    left: 550px;
+}
+
+.main-picture-container {
+    display: flex;
+    gap: 16px;
+    padding: 50px 24px 0;
+}
+
+.picture-container {
+    background-image: url(img/high\ \(1\).jpg);
+    background-repeat: no-repeat;
+    width: 724px;
+    height: 454px;
+    position: relative;
+}
+
+.picture-container2 {
+    background-image: url(img/Rectangle\ 10.png);
+    background-repeat: no-repeat;
+    width: 724px;
+    height: 454px;
+    position: relative;
+}
+
+.women span {
+    color: rgba(255, 255, 255, 1);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}
+
+.women p {
+    color: rgba(0, 0, 0, 1);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 1px;
+    position: absolute;
+    bottom: 20px;
+    right: 45px;
+}
+
+.men span {
+    color: rgba(255, 255, 255, 1);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    display: block;
+}
+
+.men p {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 1px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.new-releases {
+    display: flex;
+    flex-direction: column;
+    overflow-x: scroll;
+}
+
+.new-releases h3 {
+    color: rgba(0, 0, 0, 1);
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 1px;
+    padding: 62px 24px 0;
+    margin-bottom: 29px;
+}
+
+.product-card {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.image-row {
+    display: flex;
+    padding: 0 24px;
+    gap: 35px;
+    width: 100%;
+}
+
+.image-row img {
+    flex-shrink: 0;
+    width: 300px;
+    scroll-snap-align: start
+}
+
+.product-name-text, .product-price-text{
+    color: rgba(0, 0, 0, 1);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.main-text-bottom {
+    text-align: center;
+    display: flex;
+    padding: 151px 639px ;
+}
+
+.text-bottom h5 {
+    color: rgba(0, 0, 0, 1);
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 0;
+}
+
+.text-bottom p {
+    color: rgba(0, 0, 0, 1);
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0;
+}
+
+.text-bottom button {
+    border: 3px solid black;
+    color: rgba(0, 0, 0, 1);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    background: none;
+}
+
+footer {
+    background-color: black;
+    width: auto;
+    height: 280px;
+}
+
+.element-container {
+    display: flex;
+    position: relative;
+}
+
+.elementor {
+    display: flex;
+    gap: 300px;
+    padding: 0 24px;
+}
+
+.social-text {
+    color: rgb(83, 82, 82);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0;
+    text-align: left;
+    position: absolute;
+    top: 50px;
+}
+
+.ul-text {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0;
+    text-align: left;
+    position: absolute;
+    top: 81px;
+}
+
+.ul-text a {
+    text-decoration: none;
+    color: rgba(196, 196, 196, 1);
+}
+
+.social-img {
+    position: absolute;
+    top: 81px;
+    display: flex;
+}
+
+.bottom-info {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center
+}
+
+.info-txd {
+    color: rgb(83, 82, 82);
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 240px;
+}
+
+.button-menu {
+    background: none;
+    border: none;
+    padding: 0;
+    display: none;
+}
+
+.burger-ico {
+    display: none;
+    width: 30px;
+    height: auto;
+}
+
+@media(max-width: 1200px) {
+    .main-container {
+        max-width: 100%;
+        padding: 0 24px;
+    }
+
+    section .main-container {
+        max-width: 100%;
+    }
+
+    header .main-container {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        align-items: center;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .button-menu {
+        display: block;
+        justify-self: start;
+    }
+
+    .burger-ico {
+        display: block;
+        width: 24px;
+        height: 24px;
+    }
+
+    .logo {
+        order: 2;
+        text-align: center;
+        flex-grow: 0;
+        padding: 5px 10px;
+        justify-self: center;
+        transform: translateX(20px);
+    }
+
+    .logo img {
+        width: 80px; 
+        height: auto;
+    }
+
+    .form-buttons {
+        order: 3;
+        justify-self: end;
+        display: flex;
+        gap: 15px;
+    }
+
+    .form-buttons button {
+        padding: 0;
+    }
+
+    .form-buttons .button-menu {
+        display: block;
+    }
+    
+    .previev .main-container {
+        flex-direction: column;     
+        text-align: center;
+        padding: 0 24px;
+    }
+    
+    .main-image {
+        order: 1;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .first-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .first-image .first, .first-image .second {
+        position: static;
+        width: 50%;
+        max-width: 180px;
+        height: auto;
+        padding: 0;
+    }
+    
+    .text-container {
+        order: 2;
+        padding: 20px 0;
+        text-align: center;
+    }
+    
+    .text-container h1 {
+        font-size: 48px;
+        line-height: 48px;
+        text-align: center;
+    }
+    
+    .text-container p {
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .button-buy {
+        text-align: center;
+    }
+    
+    .button-buy button{
+        width: 100%;
+        max-width: 200px; 
+        height: 40px;
+        border-radius: 5px;
+        font-size: 16px;
+        background-color: black;
+        color: white;
+        border: none;
+    }
+
+
+    .main-picture-container {
+        flex-direction: column; 
+        gap: 16px;
+        padding: 30px 24px;
+    }
+
+    .picture-container, .picture-container2 {
+        width: 100%;
+        height: 350px; 
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+    }
+    
+    .women span, .men span {
+        font-size: 32px;
+        top: 20px;
+        left: 20px;
+    }
+    
+    .women p {
+        color: white;
+        right: 20px;
+        bottom: 20px;
+        left: auto;
+    }
+
+    .men p {
+        color: black; 
+        right: 20px;
+        bottom: 20px;
+        right: auto;
+    }
+
+    .new-releases h3 {
+        padding: 40px 24px 0;
+    }
+
+    .image-row {
+        gap: 15px;
+    }
+
+    .image-row img {
+        width: 150px;
+    }
+
+    .product-name-text, .product-price-text{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    .main-text-bottom {
+        padding: 50px 24px;
+        display: block;
+    }
+
+    .text-bottom button {
+        width: 100%;
+        max-width: 250px;
+        border: 2px solid black;
+        height: 45px;
+        background: none;
+    }
+
+    footer {
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 20px; 
+    }
+
+    .elementor {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 3px 24px 0;
+    }
+
+    .social-media {
+        position: relative; 
+    }
+
+    .social-text {
+        position: static;
+        display: block;
+        padding-bottom: 5px;
+    }
+
+    .ul-text {
+        position: static;
+        padding-bottom: 15px;
+    }
+
+    .social-img {
+        position: static;
+        gap: 10px;
+    }
+
+    .bottom-info {
+        padding-top: 20px;
+    }
+
+    .info-txd {
+        position: static;
+    }
+}
