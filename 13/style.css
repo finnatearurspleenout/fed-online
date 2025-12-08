@@ -285,7 +285,13 @@ footer .main-container {
 
 }
 
-@media (max-width:999px) {
+@media (min-width:800px) and (max-width:1179px) {
+    .input-container {
+        width: 51rem;
+    }
+}
+
+@media (max-width:800px) {
     .elements {
         display: flex;
         padding-top: 1.25rem;
@@ -347,6 +353,8 @@ footer .main-container {
 
     .inputs {
         flex-direction: column;
+        gap: 5.6rem;
     }
+    
     
 }
