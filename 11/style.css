@@ -54,7 +54,7 @@ header .main-container {
     /* max-width: 1610px;
     width: 100%; */
     margin: 0 auto;
-    position: relative;
+    /* position: relative; */
 }
 
 .content {
@@ -209,7 +209,7 @@ span {
     justify-content: flex-end;
     position: absolute;
     top: 300px;
-    right: -40px;
+    right: 0;
 }
 
 .gray-block {
@@ -229,4 +229,39 @@ span {
     line-height: 141.52%;
     letter-spacing: 1px;
     text-align: right;
+}
+
+@media(max-width:1180px) {
+    header .main-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 70px 40px 0;
+        margin: 0 auto;
+    }
+
+    .content .main-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .score {
+        margin-top: 170px;
+    }
+
+    .popular {
+        min-width: 375px;
+    }
+
+    .card-container {
+        display: flex;
+        gap: 15px;
+        min-width: 375px;
+}
+
+    .years {
+        position: static;
+        margin: 20px auto;
+        padding-top: 20px;
 }

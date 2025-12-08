@@ -358,7 +358,7 @@ footer {
     height: auto;
 }
 
-@media(max-width: 1200px) {
+@media(max-width:1400px) {
     .main-container {
         max-width: 100%;
         padding: 0 24px;
@@ -478,6 +478,11 @@ footer {
         border: none;
     }
 
+    .element-container {
+        display: flex;
+        position: relative;
+        justify-content: center;
+}
 
     .main-picture-container {
         flex-direction: column; 
@@ -582,5 +587,237 @@ footer {
 
     .info-txd {
         position: static;
+    }
+}
+
+@media (min-width:1401px) and (max-width:1900px){
+    .main-container {
+        max-width: 100%;
+        padding: 0 24px;
+    }
+
+    section .main-container {
+        max-width: 100%;
+    }
+
+    header .main-container {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        align-items: center;
+    }
+
+    .links {
+        display: block;
+        width: 50px;
+        height: auto;
+        padding: 0 24px;
+    }
+
+    .logo {
+        order: 2;
+        text-align: center;
+        flex-grow: 0;
+        padding: 5px 10px;
+        justify-self: center;
+        transform: translateX(20px);
+    }
+
+    .logo img {
+        width: 200px; 
+        height: auto;
+    }
+
+    .form-buttons {
+        order: 3;
+        justify-self: end;
+        display: flex;
+        gap: 15px;
+    }
+
+    .form-buttons button {
+        padding: 0;
+    }
+
+    .form-buttons .button-menu {
+        display: block;
+    }
+    
+    .previev .main-container {
+        text-align: center;
+        display: flex;
+        padding: 0 24px;
+        flex-direction: row-reverse;
+    }
+    
+    .main-image {
+        order: 1;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .first-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .first-image .first, .first-image .second {
+        position: static;
+        height: auto;
+        padding: 0;
+    }
+    
+    .text-container {
+        order: 2;
+        padding: 20px 24px;
+    }
+    
+    .text-container h1 {
+        font-size: 48px;
+        line-height: 48px;
+    }
+    
+    .text-container p {
+        font-size: 25px;
+    }
+    
+    .button-buy {
+        text-align: center;
+    }
+    
+    .button-buy button{
+        width: 100%;
+        max-width: 300px;
+        height: 40px;
+        border-radius: 5px;
+        font-size: 16px;
+        background-color: black;
+        color: white;
+        border: none;
+    }
+
+    .element-container {
+        display: flex;
+        position: relative;
+        justify-content: center;
+}
+
+    .main-picture-container {
+        gap: 16px;
+        padding: 30px 24px;
+    }
+
+    .picture-container, .picture-container2 {
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+    }
+    
+    .women span, .men span {
+        font-size: 32px;
+        top: 20px;
+        left: 20px;
+    }
+    
+    .women p {
+        color: white;
+        right: 20px;
+        bottom: 20px;
+        left: auto;
+    }
+
+    .men p {
+        color: black; 
+        right: 20px;
+        bottom: 20px;
+        right: auto;
+    }
+
+    .new-releases h3 {
+        padding: 40px 24px 0;
+    }
+
+    .image-row {
+        gap: 15px;
+    }
+
+    .product-name-text, .product-price-text{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    .main-text-bottom {
+        padding: 50px 24px;
+        display: block;
+    }
+
+    .text-bottom button {
+        width: 100%;
+        max-width: 250px;
+        border: 2px solid black;
+        height: 45px;
+        background: none;
+    }
+
+    footer {
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 20px; 
+    }
+
+    .elementor {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 3px 24px 0;
+    }
+
+    .social-media {
+        position: relative; 
+    }
+
+    .social-text {
+        position: static;
+        display: block;
+        padding-bottom: 5px;
+    }
+
+    .ul-text {
+        position: static;
+        padding-bottom: 15px;
+    }
+
+    .social-img {
+        position: static;
+        gap: 10px;
+    }
+
+    .bottom-info {
+        padding-top: 20px;
+    }
+
+    .info-txd {
+        position: static;
+    }
+}
+
+
+@media (min-width:1901px) and (max-width:2150px) {
+    header .main-container {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        align-items: center;
+    }
+
+    .first-image .first {
+        width: 80%;
+    }
+    
+    .first-image .second {
+        width: 60%;
+        left: 396px;
     }
 }
