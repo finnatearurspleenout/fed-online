@@ -1,3 +1,352 @@
 * {
     box-sizing: border-box;
 }
+
+.main-container {
+    margin: 0 auto;
+    max-width: 153.75rem;
+    padding: 0 1.5rem;
+}
+
+header .main-container {
+    padding-top: 50px;
+    position: relative;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    color: rgba(188, 67, 106, 1);
+    font-family: Open Sans;
+    font-size: 1.53rem;
+    font-weight: 700;
+    line-height: 1.56rem;
+    text-align: left;
+}
+
+.elements {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.elements a {
+    color: rgba(119, 102, 119, 1);
+    font-family: Avenir;
+    font-size: 1.13rem;
+    font-weight: 400;
+    line-height: 1.19rem;
+    text-align: left;
+    text-decoration: none;
+}
+
+.elements button {
+    width: 6.38rem;
+    height: 2.38rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: none;
+    background-color: rgba(56, 110, 65, 1);
+}
+
+.elements span {
+    color: rgba(255, 255, 255, 1);
+    font-family: Avenir;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.19rem;
+}
+
+.elements  a:hover {
+    color: rgba(188, 67, 106, 1);
+}
+
+.main-section {
+    background-image: url(img/Image.png);
+    background-repeat: no-repeat;
+    background-size: 45rem;
+    background-position: right;
+}
+
+.main-text-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-container h1 {
+    font-family: 'Avenir';
+    font-size: 2.25rem;
+    font-weight: 400;
+    line-height: 2.69rem;
+    text-align: left;
+    padding-top: 12.375rem;
+}
+
+.text-container strong {
+    color: rgba(188, 67, 106, 1);
+}
+
+.text-container p {
+    color: rgba(122, 122, 122, 1);
+    font-family: Avenir;
+    font-size: 1.13rem;
+    font-weight: 400;
+    line-height: 1.38rem;
+    text-align: left;
+    width: 32.7rem;
+    height: 4.7rem;
+    padding-top: 1.43rem;
+}
+
+.shap-container {
+    position: relative;
+}
+
+.shap-content {
+    position: absolute;
+    top: 3.37rem;
+    left: -6.37rem;
+}
+
+.text-container2 h1 {
+    color: rgba(118, 118, 118, 1);
+    font-family: Avenir;
+    font-size: 1.13rem;
+    font-weight: 400;
+    line-height: 1.38rem;
+    text-align: left;
+    padding-top: 14.313rem;
+    padding-bottom: 2.063rem;
+
+}
+
+.fa-chevron-right {
+    color: gray;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    left: 12.5rem;
+    bottom: 1.687rem;
+}
+
+.text-container2 {
+    position: relative;
+}
+
+.input-container {
+    background-color: rgba(56, 110, 65, 1);
+    width: 75rem;
+    height: 6.25rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs {
+    display: flex;
+    gap: 4.688rem;
+}
+
+.input input {
+    border: none;
+    background: none;
+    font-family: Avenir;
+    font-size: 1.13rem;
+    font-weight: 400;
+    line-height: 1.38rem;
+    text-align: left;
+    color: white;
+    outline: none;
+}
+
+.input input::placeholder {
+    color: white;
+}
+
+.fa-chevron-down {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: white;
+}
+
+.button-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-button {
+    width: 9rem;
+    height: 2.56rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: none;
+    background-color: rgba(188, 67, 106, 1);
+}
+
+.input-button span {
+    color: rgba(255, 255, 255, 1);
+    font-family: Avenir;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.38rem;
+    text-align: left;
+}
+
+footer .main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.footer-text {
+    display: flex;
+    position: absolute;
+    top: 10.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.footer-text h1 {
+    color: rgba(118, 118, 118, 1);
+    font-family: Avenir;
+    font-size: 1.13rem;
+    font-weight: 400;
+    line-height: 1.38rem;
+}
+
+.footer-text .fa-chevron-down {
+    color: gray;
+}
+
+@media(max-width:1180px) {
+    .input-container {
+        background-color: rgba(56, 110, 65, 1);
+        width: 60rem;
+        height: 6.25rem;
+        border-radius: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text-container h1 {
+        font-family: 'Avenir';
+        font-size: 2.25rem;
+        font-weight: 400;
+        line-height: 2.69rem;
+        text-align: left;
+        padding-top: 12.375rem;
+        width: 15.88rem;
+    }
+
+    .shap-content {
+        position: absolute;
+        top: 5.37rem;
+        left: -7.37rem;
+    }
+
+    .text-container p {
+        color: rgba(122, 122, 122, 1);
+        font-family: Avenir;
+        font-size: 1.13rem;
+        font-weight: 400;
+        line-height: 1.38rem;
+        text-align: left;
+        width: 20.7rem;
+        height: 4.7rem;
+        padding-top: 1.43rem;
+    }
+
+    .inputs {
+        display: flex;
+        gap: 0.688rem;
+    }
+
+    .main-section {
+        background-image: url(img/Image.png);
+        background-repeat: no-repeat;
+        background-size: 38rem;
+        background-position: right;
+    }
+
+}
+
+@media (max-width:999px) {
+    .elements {
+        display: flex;
+        padding-top: 1.25rem;
+        gap: 2.5rem;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .main-content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-section {
+        background-image: url(img/Image.png);
+        background-repeat: no-repeat;
+        background-size: 36rem;
+        background-position: 60% 20%;
+        min-width: 82vh;
+    }
+
+    .main-text-container {
+        width: 12.5rem;
+    }
+
+    .text-container p {
+        color: rgba(122, 122, 122, 1);
+        font-family: Avenir;
+        font-size: 1.13rem;
+        font-weight: 400;
+        line-height: 1.38rem;
+        text-align: left;
+        /* width: 9.7rem;
+        height: 4.7rem; */
+        padding-top: 1.43rem;
+    }
+
+    .text-container h1 {
+        font-family: 'Avenir';
+        font-size: 2.25rem;
+        font-weight: 400;
+        line-height: 2.69rem;
+        text-align: left;
+        padding-top: 2rem;
+    }
+
+    .shap-content {
+        display: none;
+    }
+
+    .input-container {
+        width: 21rem;
+        height: 33.25rem;
+        min-width: 42vh;
+    }
+
+    .inputs {
+        flex-direction: column;
+    }
+    
+}
