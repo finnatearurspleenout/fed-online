@@ -14,6 +14,7 @@
     background-image: url(img/bg\ \(1\).png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .preview-container {
@@ -141,7 +142,7 @@ header .main-container {
 }
 
 .text-content {
-    max-width: 700px;
+    grid-area: text;
 }
 
 .text-content h2{
@@ -152,7 +153,6 @@ header .main-container {
     font-weight: 700;
     line-height: 2rem;
     letter-spacing: 0.14rem;
-    text-align: left;
     padding-bottom: 1.9rem;
 }
 
@@ -180,6 +180,7 @@ header .main-container {
     &:last-child {
         margin-right: -25px;
     }
+    gap: 10px;
 }
 
 .image-container img{
@@ -218,7 +219,7 @@ header .main-container {
     font-weight: 400;
     line-height: 2rem;
     letter-spacing: 0.01rem;
-    width: 1000px;
+    // width: 1000px;
 }
 
 .button-container button {
@@ -280,7 +281,7 @@ header .main-container {
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 7.5rem;
-    background-position: 0;
+    background-position: center;
 }
 
 .footer-text-content {
@@ -369,7 +370,7 @@ header .main-container {
 
 .footer-text-links {
     width: 100%;
-    height: 15rem;
+    height: auto;
     background-color: rgba(20, 26, 32, 1);
     
 }
@@ -510,4 +511,186 @@ header .main-container {
     line-height: 1.06rem;
     letter-spacing: 0rem;
     text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .main-content-section .main-container {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "head"
+        "text"
+        "image";
+    }
+
+    .header-content {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .header-pages {
+        gap: 15px;
+    }
+
+    .images {
+        flex-direction: column;
+        align-items: center;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    .center-text-content {
+        padding-bottom: 20px;
+    }
+
+    .text-content {
+        text-align: center;
+    }
+
+    .text-content1 {
+        text-align: center;
+    }
+
+    .text-content h2{
+        text-align: center;
+    }
+
+    .text-content2 {
+        text-align: center;
+    }
+
+    .image-container {
+        justify-content: center;
+        padding-bottom: 3rem;
+    }
+
+    .secondary-content-section .main-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        padding-top: 3rem;
+    }
+
+    .grid-structure {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .grid-structure h1 {
+        text-align: center;
+    }
+
+    .grid-structure p {
+        text-align: center;
+    }
+
+    .footer-text-links .main-container {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "nav"
+        "article"
+        "ads"
+        "links";
+        justify-items: center;
+        gap: 2rem;
+    }
+
+    .footer-text-links {
+        height: auto;
+    }
+
+    .email-container {
+        text-align: center;
+        padding-bottom: 15px;
+        display: block;
+    }
+
+    .footer-logo-container {
+        text-align: center;
+    }
+
+    .footer-social-media {
+        justify-content: center;
+    }
+
+    .preview-header {
+        background-position: center;
+    }
+
+    .footer-image-content {
+        background-position: center;
+    }
+}
+
+@media(min-width:769px) and (max-width:1040px) {
+    .main-content-section .main-container {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "head"
+        "image"
+        "text";
+    }
+
+    .email-container {
+        gap: 5rem;
+    }
+
+    .image-container {
+        justify-content: center;
+        padding-bottom: 3rem;
+    }
+
+    .text-content {
+        text-align: center;
+    }
+
+    .footer-text-links {
+        height: auto;
+    }
+
+    .footer-logo-container h1 {
+        padding-bottom: 10px;
+    }
+
+    .footer-logo-container p {
+        padding-top: 10px;
+    }
+
+    .preview-header {
+        background-position: center;
+    }
+
+    .footer-image-content {
+        background-position: center;
+    }
+
+    .secondary-content-section .main-container {
+        gap: 15px;
+    }
+
+    .text-content2 {
+        text-align: center;
+    }
+
+    .grid-structure {
+        gap: 10px;
+        grid-template-columns: repeat(3, minmax(100px, 1fr))
+    }
+
+    .images img {
+        width: 15rem;
+        height: auto;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    .center-text-content {
+        padding-bottom: 20px;
+    }
+
+    .footer-text-links .main-container {
+        gap: 20px;
+    }
 }
