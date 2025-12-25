@@ -676,9 +676,10 @@ footer p {
         display: none;
     }
 
-    .fa-solid {
+    .flex-container .fa-solid {
         color: var(--secondary-color-orange);
         font-size: 3rem;
+        display: inline;
     }
 
     .text-container {
