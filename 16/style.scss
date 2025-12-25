@@ -455,19 +455,19 @@ button {
 
 @keyframes roll-left-reverse {
     0% { 
-        transform: skewX(-20deg) rotateY(180deg) translateY(0); background-color: var(--blue-color); 
+        transform: skewX(-20deg) rotateY(180deg) translateY(0);background-color: var(--blue-color);
     }
 
     50% { 
-        transform: skewX(-20deg) rotateY(90deg) translateY(0); background-color: var(--blue-color); 
+        transform: skewX(-20deg) rotateY(90deg) translateY(0);background-color: var(--blue-color);
     }
 
     51% { 
-        background-color: rgb(67, 160, 67); 
+        background-color: rgb(67, 160, 67);
     }
     
     100% {
-        transform: skewX(-20deg) rotateY(0deg) translateY(-10px); background-color: rgb(67, 160, 67); 
+        transform: skewX(-20deg) rotateY(0deg) translateY(-10px); background-color: rgb(67, 160, 67);
     }
 }
 
@@ -494,18 +494,18 @@ button {
 
 @keyframes roll-right-reverse {
     0% { 
-        transform: skewX(-20deg) rotateY(-180deg) translateY(0); background-color: rgb(67, 160, 67); 
+        transform: skewX(-20deg) rotateY(-180deg) translateY(0);background-color: rgb(67, 160, 67); 
     }
 
     50% { 
-        transform: skewX(-20deg) rotateY(-90deg) translateY(0); background-color: rgb(67, 160, 67); 
+        transform: skewX(-20deg) rotateY(-90deg) translateY(0);background-color: rgb(67, 160, 67); 
     }
 
     51% {
-        background-color: var(--blue-color); 
+        background-color: var(--blue-color);
     }
 
     100% { 
-        transform: skewX(-20deg) rotateY(0deg) translateY(10px); background-color: var(--blue-color); 
+        transform: skewX(-20deg) rotateY(0deg) translateY(10px);background-color: var(--blue-color); 
     }
 }
