@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="style/reserve.css">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/page-style.css">
+  <link href="https://db.onlinewebfonts.com/c/ef5c42cab4fe90e48852aa926a45d2ff?family=Yu+Gothic" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/georgia" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inter:ital,opsz,wght@0,14..32,500;1,14..32,500&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg d-flex">
+        <div class="container-fluid d-flex">
+          <div class="logo">
+            <a class="" href="#">DesignCafé</a>
+          </div>
+          <button class="navbar-toggler border border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end text-center" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 gx-2">
+              <li class="nav-item header-text">
+                <a class="nav-link" aria-current="page" href="#">DesignCaféとは</a>
+              </li>
+              <li class="nav-item header-text">
+                <a class="nav-link" href="#">メニュー</a>
+              </li>
+              <li class="nav-item header-text">
+                <a href="#" class="nav-link">お問い合わせ</a>
+              </li>
+              <li class="nav-item header-text">
+                <a href="#" class="nav-link">お知らせ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <section class="top-bg-section d-flex align-items-center">
+    <h1 class="text-center w-100">
+      Grand Open
+    </h1>
+  </section>
+  <section class="menu">
+    <div class="container">
+      <div class="row">
+        <h3 class="text-center pt-5 pb-3">
+          Menu <br> <span>メニュー</span> 
+        </h3>
+      </div>
+      <div class="row pb-5 media-gap">
+        <div class="col-xs-12 col-md-4">
+          <div class="col rounded-circle overflow-hidden position-relative border-radius">
+            <img src="img/drinks1.png" class="w-100" alt="drinks">
+            <div class="position-absolute bottom-0 text-center p-4 w-100 my-bg">
+              <span class="food">
+                Drink
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-4">
+          <div class="col rounded-circle overflow-hidden position-relative border-radius">
+            <img src="img/drinks3.png" class="w-100" alt="drinks">
+            <div class="position-absolute bottom-0 text-center p-4 w-100 my-bg">
+              <span class="food">
+                Cakes
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-4">
+          <div class="col rounded-circle overflow-hidden position-relative border-radius">
+            <img src="img/drinks2.png" class="w-100" alt="drinks">
+            <div class="position-absolute bottom-0 text-center p-4 w-100 my-bg">
+              <span class="food">
+                Food
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex align-items-center justify-content-center pb-5">
+        <button class="text-center button-bottom border border-0 p-2">
+          詳しく見る 
+          <i class="fa-solid fa-angle-right"></i>
+        </button>
+      </div>
+    </div>
+  </section>
+  <section class="about-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-4 mx-auto d-flex align-items-center flex-column pb-5">
+          <h4 class="text-center">
+            About
+          </h4>
+          <h5 class="text-center pt-4">
+            DesignCaféとは
+          </h5>
+          <p class="text-center py-5">
+            DesignCaféは、色々なクリエイターが、<br>
+            交流する空間カフェです。<br>
+            仲間を探したり、仕事を依頼したり、<br>
+            新たな出会いを探してみませんか。<br>
+          </p>
+          <button class="text-center button-bottom border border-0 p-2">
+            もっと見る
+            <i class="fa-solid fa-angle-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="footer-text p-5">
+    <div class="container pb-5">
+      <div class="row py-5">
+        <div class="col">
+          <h3 class="text-center pt-5 pb-5">
+              News
+              <br> <span>お知らせ</span>
+          </h3>
+        </div>
+      </div>
+      <div class="row border border-success bg-light p-4">
+        <div class="flex-column text-content d-flex">
+          <div class="d-flex flex-clmn">
+            <h4 class="">
+              11/6（土）
+            </h4>
+            <p>
+              17時より世界中から集めたデザイン・映像作品の上映会を開催します。
+            </p>
+          </div>
+          <div class="d-flex flex-gap flex-clmn">
+            <h4>
+              10/29（土）
+            </h4>
+            <p>
+              グランド・オープンいたしました。皆様のお越しを心よりお待ちしております。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="p-3 bg-black">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <h5>
+            東京都港区赤坂xx-xx <br>
+            (03) 9999-9999 <br> 
+            contact@designcafe.com <br>
+          </h5>
+        </div>
+        <div class="col-xs-12 col-md-6 text-end">
+          <h5>
+            (c) 2022 DesignCafé. All rights reserved.
+          </h5>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-end align-items-center me-md-2">
+      <button class="border-0 rounded-circle bg-success button-footer">
+        <i class="fa-solid fa-chevron-up"></i>
+      </button>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
