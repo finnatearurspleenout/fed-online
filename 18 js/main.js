@@ -1,4 +1,4 @@
-let userAgeValue = '23';
+let userAgeValue = 23;
 let userNameNickname = 'Andrey';
-userAgeValue = '20';
+userAgeValue = 20;
 userNameNickname = 'Ivan';
