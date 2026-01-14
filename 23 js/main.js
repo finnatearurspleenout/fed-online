@@ -5,6 +5,10 @@ function calculator() {
     let operation = prompt("Введіть операцію (+, -, *, /):");
     let b = Number(prompt("Введіть друге число:"));
     let result;
+    if (operation === "/" && b === 0) {
+        alert("Ділення на 0 заборонено");
+        return;
+    }
     switch (operation) {
         case "+":
             result = a + b;
@@ -21,10 +25,6 @@ function calculator() {
         default:
             alert("Невідома операція");
             return;
-    }
-    if (operation === "/" && b === 0) {
-        alert("Ділення на 0 заборонено");
-        return;
     }
     alert(`Результат: ${result}`);
 }
