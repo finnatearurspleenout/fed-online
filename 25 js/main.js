@@ -23,7 +23,7 @@ const person = {
 };
 
 for (const key in person) {
-    if (!Object.hasOwnProperty(key)) {
+    if (!person.hasOwnProperty(key)) {
         console.log(`${key} info ${person[key]} and name is ${person.name}`);
         continue;
     }
@@ -52,7 +52,7 @@ for (const value of students) {
 console.log('---');
 
 for (const key in students) {
-    if (!Object.hasOwnProperty(key)) {
+    if (!students.hasOwnProperty(key)) {
         console.log(`Index ${key} info: Name is ${students[key].name}, Age is ${students[key].age}, Grade is ${students[key].grade}`);
     }
 }
