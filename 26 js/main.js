@@ -2,10 +2,9 @@
 
 
 class Person {
-    constructor(name, age, sayHello) {
+    constructor(name, age) {
         this._name = name;
         this._age = age;
-        this._sayHello = sayHello;
     }
 
     sayHello() {
@@ -26,8 +25,8 @@ person1.sayHello();
 console.log('---');
 
 class Student extends Person {
-    constructor(name, age, sayHello, studentId) {
-        super(name, age, sayHello);
+    constructor(name, age, studentId) {
+        super(name, age);
         this._studentId = studentId;
     }
     study() {
