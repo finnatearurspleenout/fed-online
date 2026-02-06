@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js"></script>
+</head>
+<body>
+    <form action="">
+        Виберіть колір:
+        <div>
+            <input type="radio" name="color" id="red" value="red">
+            <label for="color">Червоний</label>
+        </div>
+        <div>
+            <input type="radio" name="color" id="green" value="green">
+            <label for="color">Зелений</label>
+        </div>
+        <div>
+            <input type="radio" name="color" id="blue" value="blue">
+            <label for="color">Синій</label>
+        </div>
+    </form>
+    <label for="hobby1">
+        <input type="checkbox" name="hobby" id="hobby1" value="Читання">
+        Читання
+    </label>
+    <label for="hobby2">
+        <input type="checkbox" name="hobby" id="hobby2" value="Спорт">
+        Спорт
+    </label>
+    <label for="hobby3">
+        <input type="checkbox" name="hobby" id="hobby3" value="Музика">
+        Музика
+    </label>
+    <button class="result">
+        Додати до списку
+    </button>
+    <div class="resultContainer">
+
+    </div>
+    <!-- --- -->
+    <label for="countrySelect">Оберіть країну</label>
+    <select id="countrySelect">
+        <option value="">Оберіть варіант</option>
+        <option value="ua">Україна</option>
+        <option value="pl">Польща</option>
+        <option value="us">США</option>
+    </select>
+    <div id="info">
+        
+    </div>
+    <!-- --- -->
+    <form>
+        <p>Як ви оцінюєте нашу роботу?</p>
+        <h3 id="feedback"">Виберіть оцінку</h3>
+        <div class="rating-group">
+            <input type="radio" name="rating" value="1" id="r1">
+            <label for="r1">1</label>
+            <input type="radio" name="rating" value="2" id="r2">
+            <label for="r2">2</label>
+            <input type="radio" name="rating" value="3" id="r3">
+            <label for="r3">3</label>
+            <input type="radio" name="rating" value="4" id="r4">
+            <label for="r4">4</label>
+            <input type="radio" name="rating" value="5" id="r5">
+            <label for="r5">5</label>
+        </div>
+    </form>
+    <!--  -->
+    <form id="pizzaForm">
+        <h3>Оберіть піцу</h3>
+        <select id="pizzaType">
+            <option value="100">Маргарита (100 грн)</option>
+            <option value="150">Чотири сири (150 грн)</option>
+            <option value="180">Пепероні (180 грн)</option>
+        </select>
+        <h3>Розмір</h3>
+        <input type="radio" name="size" value="0" checked id="s">
+        <label for="s">Стандарт (0 грн)</label><br>
+        <input type="radio" name="size" value="50" id="m"> <label for="m">Середня (+50 грн)</label><br>
+        <input type="radio" name="size" value="100" id="l"> <label for="l">Велика (+100 грн)</label>
+        <h3>Додатково (+25 грн за кожну)</h3>
+        <input type="checkbox" class="topping" value="25"> Сирний бортик <br>
+        <input type="checkbox" class="topping" value="25"> Гриби <br>
+        <input type="checkbox" class="topping" value="25"> Соус
+    </form>
+    <h2 id="totalPrice">Ціна 100 грн</h2>
+</body>
+</html>
