@@ -1,0 +1,20 @@
+:root {
+    --bg-color:black;
+    --button-color:green;
+    --text-color:yellow;
+}
+body {
+    background-color: var(--bg-color);
+}
+
+.text {
+    color: var(--text-color);
+}
+
+p {
+    color: white;
+}
+
+button {
+    background-color: var(--button-color);
+}
