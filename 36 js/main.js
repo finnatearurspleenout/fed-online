@@ -7,7 +7,7 @@ console.log(pattern);
 // 2
 
 let operation = "5 плюс 7 = 3";
-let numbers = operation.match(/\d/g);
+let numbers = operation.match(/\d{1,6}/g);
 console.log(numbers);
 
 // 3
