@@ -12,7 +12,11 @@ window.onload = function() {
     let timerBtn = document.querySelector('button');
     let display = document.querySelector('p');
     let counter = 0;
+    let interval = null;
     timerBtn.onclick = function() {
+        if(interval) {
+            return;
+        }
         interval = setInterval(function() {
             counter++;
             display.innerHTML = counter;
